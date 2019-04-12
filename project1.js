@@ -5,11 +5,7 @@
   score = score + 1;
 
   addEventListener().onclick
-  */
-
-//   
-
-
+  */  
 let uniqueId;
 
 $(function() {
