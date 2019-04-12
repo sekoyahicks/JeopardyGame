@@ -12,11 +12,12 @@ body {
     background: peachpuff;
     margin-top: 50px
 }
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: .5px solid purple;
+    border: .5px solid peachpuff;
 }
 
 .topics {
@@ -52,3 +53,34 @@ body {
 .square:hover {
     background: white;
 }
+
+.modal-content{
+    background-color: darkgray;
+    width: 600px;
+    height: 440px;
+    top: 0;
+    left: 0;
+    border-radius: 5px; 
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  } 
+
+  .modal-background {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: purple;
+  }
+
+  .modal {
+      height: 50%;
+      width: 50%;
+      background: peachpuff;
+
+  }
