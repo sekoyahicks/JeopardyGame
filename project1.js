@@ -1,11 +1,6 @@
 
-/*
-  let score = 0
+  var playerScore = 0
 
-  score = score + 1;
-
-  addEventListener().onclick
-  */  
 let uniqueId;
 
 $(function() {
@@ -24,10 +19,38 @@ $(function() {
         $(".answer1").html(qArray[i].answer1);
         $(".answer2").html(qArray[i].answer2);
         $(".answer3").html(qArray[i].answer3);
+        $(".correctAnswer").html(qArray[i].correctAnswer);
+        let score = $(this).html();
+        $(".questionScore").html(score)
       };
     };  
   });
 });
+$("#submit").on("click", function(event) {
+  event.preventDefault();
+  let answer = $(".answer:checked").val()
+  let correctAnswer = $(".correctAnswer").html()
+  console.log("picked answer"+answer)
+  console.log("correct answer "+correctAnswer)
+
+  let score = Number($(".questionScore").html())
+  console.log("score "+score)
+  if($(".answer:checked").val() === $(".correctAnswer").html()){
+    console.log("correct")
+    playerScore = playerScore + score;
+
+  } else {
+    playerScore = playerScore - score;
+      console.log("incorrect")
+    } 
+
+    $(".score").html(playerScore)
+    console.log("playerScore "+ playerScore)
+  $(".modal-background").hide()
+});
+
+$()
+
 
 qArray = [
   {
@@ -35,14 +58,16 @@ qArray = [
   question: "What liquid is the most hydrating?",
   answer1: "soda",
   answer2: "water",
-  answer3: "milk"
+  answer3: "milk",
+  correctAnswer: "answer2"
 },
 {
   id:"1100",
-  question: "sidjofw",
-  answer1: "sdjfoew",
-  answer2: "dsafw",
-  answer3: "sdfaw"
+  question: "Which fruit has the highest protein content?",
+  answer1: "avocado",
+  answer2: "banana",
+  answer3: "orange",
+  correctAnswer: "answer1"
 },
 /*{
   id:"2100",

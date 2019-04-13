@@ -16,15 +16,15 @@
 
                 <div class="question"></div>
                 <div class="Solution">
-                        <form action="" method="post">
-                    <div class="answer1"></div><input type="radio" name="choose" value="answer1">
-                    <div class="answer2"></div><input type="radio" name="choose" value="answer2">
-                    <div class="answer3"></div><input type="radio" name="choose" value="answer3">
-                    <button name="submit">
-                            <strong>Submit</strong>
-                          </button>
+                        <form>
+                    <div class="answer1"></div><input type="radio" name="choose" class="answer" value="answer1" checked>
+                    <div class="answer2"></div><input type="radio" name="choose" class="answer" value="answer2">
+                    <div class="answer3"></div><input type="radio" name="choose" class="answer" value="answer3">
+                    <button id="submit">Submit</button>
                         </form>
                 </div>
+                    <div class="correctAnswer"></div>
+                    <div class="questionScore"></div>
             </div>
         
         </div>
@@ -33,7 +33,7 @@
         <h1>Jeopardy</h1>
     </header>
 
-    <body>
+    <>
         <div class="topics">
             <div class="topics">LIQUIDS</div>
             <div class="topics">SOLIDS</div>
@@ -82,6 +82,7 @@
             <div class="square" id="3500">500</div>
             <div class="square" id="4500">500</div>
         </div>
+        <div class="score"><p>Score</p>0</div>
 
     </container>
         </body>
