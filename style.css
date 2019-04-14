@@ -37,18 +37,18 @@ body {
     justify-content: space-around;
     border: .5px solid orangered;
     size: 100px;
-    background: lavender;
 }
 
-.square {
+.square, .emptySquare {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 70px;
     border: .5px solid orangered;
     background: peachpuff;
     color: orangered;
     font: 30px sans-serif;
+
 }
 
 .square:hover {
@@ -84,4 +84,20 @@ body {
       width: 50%;
       background: peachpuff;
 
+  }
+  
+  .question {
+      display: flex;
+      justify-content: center;
+      font-family: 'Bree Serif', serif;
+      font-size: 1.5em;
+      color: orangered;
+  }
+
+  .Solution {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 20px;
+      color: orangered;
   }
