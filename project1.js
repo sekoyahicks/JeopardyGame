@@ -63,10 +63,10 @@ $("#submit").on("click", function(event) {
 qArray = [
   {
   id:"0100",
-  question: "What liquid is the most hydrating?",
-  answer1: "soda",
-  answer2: "water",
-  answer3: "milk",
+  question: "What is the name of the tallest tree in the world?",
+  answer1: "hyperion",
+  answer2: "sequoia",
+  answer3: "scarlet",
   correctAnswer: "answer2"
 },
 {
@@ -77,28 +77,31 @@ qArray = [
   answer3: "orange",
   correctAnswer: "answer1"
 },
-/*{
+{
   id:"2100",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "What is one of the fastest growing occupations related to tech?",
+  answer1:"switchboard operators",
+  answer2:"data entry keyers",
+  answer3:"computer programming",
+  correctAnswer: "answer3"
 },
 {
   id:"3100",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "How long can a snail sleep?",
+  answer1: "5 hours",
+  answer2: "3 years",
+  answer3: "2 days",
+  correctAnswer: "answer2"
 },
 {
-  id:"4100"
-  question:
-  answer1:
-  answer2:
-  answer3:
+  id:"4100",
+  question: "In what year did the naming of tropical storms officially begin?",
+  answer1: "1945",
+  answer2: "1921",
+  answer3: "1953",
+  correctAnswer: "answer3"
 },
-{
+/*{
   id:""
   question:
   answer1:
