@@ -71,18 +71,18 @@ qArray = [
 },
 {
   id:"1100",
-  question: "Which fruit has the highest protein content?",
-  answer1: "avocado",
-  answer2: "banana",
-  answer3: "orange",
-  correctAnswer: "answer1"
+  question: "What is one of the fastest growing occupations related to technology?",
+  answer1: "switchboard operators",
+  answer2: "computer programming",
+  answer3: "data entry keyers",
+  correctAnswer: "answer2"
 },
 {
   id:"2100",
-  question: "What is one of the fastest growing occupations related to tech?",
-  answer1:"switchboard operators",
-  answer2:"data entry keyers",
-  answer3:"computer programming",
+  question: "What is the most hydrating liquid in the world?",
+  answer1:"juice",
+  answer2:"milk",
+  answer3:"water",
   correctAnswer: "answer3"
 },
 {
@@ -95,42 +95,45 @@ qArray = [
 },
 {
   id:"4100",
-  question: "In what year did the naming of tropical storms officially begin?",
-  answer1: "1945",
-  answer2: "1921",
-  answer3: "1953",
+  question: "What is the name of a transpartent coating of ice that makes pavement slippery?",
+  answer1: "black ice",
+  answer2: "clear ice",
+  answer3: "thin ice",
+  correctAnswer: "answer1"
+},
+{
+  id:"0200",
+  question: "2,700 ______ are cut so that we can have toilet paper.",
+  answer1: "bushes",
+  answer2: "houses",
+  answer3: "trees",
   correctAnswer: "answer3"
 },
-/*{
-  id:""
-  question:
+{
+  id: "1200",
+  question: "HP, Google, Microsoft, and Apple were all started where?",
+  answer1: "in Europe",
+  answer2: "in a basement",
+  answer3: "in a garage",
+  correctAnswer: "answer3"
+},
+{
+  id: "2200",
+  question: "Which fruit has the highest protein content?",
+  answer1: "banana",
+  answer2: "avocado",
+  answer3: "orange",
+  correctAnswer: "answer2"
+},
+{
+  id: "3200",
+  question: ""
   answer1:
   answer2:
   answer3:
 },
 {
-  id:
-  question:
-  answer1:
-  answer2:
-  answer3:
-},
-{
-  id:
-  question:
-  answer1:
-  answer2:
-  answer3:
-},
-{
-  id:
-  question:
-  answer1:
-  answer2:
-  answer3:
-},
-{
-  id:
+  id: "4200",
   question:
   answer1:
   answer2:
