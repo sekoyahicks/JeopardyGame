@@ -117,3 +117,13 @@ body {
     color: peachpuff;
 
   }
+
+  #submit {
+      color: purple;
+      border-color: orangered;
+      border-width: .2em;
+      border-style: dashed;
+      font-family: 'Bree Serif', serif;
+      font-size: 1em;
+
+  }
