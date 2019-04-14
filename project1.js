@@ -1,5 +1,6 @@
 
   var playerScore = 0
+  var answeredQuestions = 0
 
 let uniqueId;
 
@@ -19,9 +20,13 @@ $(function() {
         $(".answer1").html(qArray[i].answer1);
         $(".answer2").html(qArray[i].answer2);
         $(".answer3").html(qArray[i].answer3);
-        $(".correctAnswer").html(qArray[i].correctAnswer);
+        $(".correctAnswer").html(qArray[i].correctAnswer).hide();
         let score = $(this).html();
         $(".questionScore").html(score)
+$(this).html("-----")
+$(this).removeClass("square")
+$(this).addClass("emptySquare")
+$(this).off()
       };
     };  
   });
@@ -44,12 +49,15 @@ $("#submit").on("click", function(event) {
       console.log("incorrect")
     } 
 
+    answeredQuestions = answeredQuestions + 1;
+    if(answeredQuestions == 25){
+        console.log("youWon")
+    }
     $(".score").html(playerScore)
     console.log("playerScore "+ playerScore)
   $(".modal-background").hide()
-});
 
-$()
+});
 
 
 qArray = [
