@@ -170,7 +170,8 @@ qArray = [
   question: "All insects have __ legs.",
   answer1: "4",
   answer2: "6",
-  answer3: "8"
+  answer3: "8",
+  correctAnswer: "6"
 },
 {
   id: "4400",
