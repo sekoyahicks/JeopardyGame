@@ -3,7 +3,7 @@
 This is a simple game of Jeopardy.
 
 # Whiteboard/Wireframing
-<img src="IMG_0674.jpg"
+<img src="images/IMG_0674.jpg">
 
 # Link to game:
 https://sekoyahicks.github.io/JeopardyGame/
