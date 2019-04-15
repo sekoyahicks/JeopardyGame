@@ -247,18 +247,20 @@ qArray = [
 },
 {
   id: "3500",
-  question: 
-  answer1:
-  answer2:
-  answer3:
+  question: "How long can a tarantula survive without food?",
+  answer1: "2 years",
+  answer2: "2 months",
+  answer3: "2 weeks",
+  correctAnswer: "answer1"
 },
 {
   id: "4500",
-  question:
-  answer1:
-  answer2:
-  answer3:
-},*/
+  question: "'Cyclone' and 'typhoon' are other names for '_______'.",
+  answer1: "tornadoes",
+  answer2: "tsunamis",
+  answer3: "hurricanes",
+  correctAnswer: "answer3"
+},
 ]
 
 
