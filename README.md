@@ -2,11 +2,14 @@
 
 This is a simple game of Jeopardy.
 
-# Whiteboard/Wireframing
-<img src="images/IMG_0674.jpg" width=200>
-<img src="images/IMG_0675.jpg" width=200>
-<img src="images/IMG_0676.jpg" width=200>
+# Object of the game
 
+A single player must answer questions correctly in order to have points added, and ultimately win the game. If player answers questions incorrectly, points are deducted. The score is kept in the top, left corner.
+
+# Whiteboard/Wireframing
+<img src="images/IMG_0676.jpg" width=200>
+<img src="images/IMG_0675.jpg" width=200>
+<img src="images/IMG_0674.jpg" width=200>
 
 # Link to game:
 https://sekoyahicks.github.io/JeopardyGame/
