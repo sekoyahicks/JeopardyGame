@@ -199,28 +199,31 @@ qArray = [
 },
 {
   id: "2400",
-  question: 
-  answer1:
-  answer2:
-  answer3:
+  question: "What food is made of 25% air?",
+  answer1: "apples",
+  answer2: "avocados",
+  answer3: "bananas",
+  correctAnswer: "answer1"
 },
 {
   id: "3400",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "How many teeth does a bear have?",
+  answer1: "42",
+  answer2: "27",
+  answer3: "38",
+  correctAnswer: "answer1"
 },
 {
   id: "4400",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "How long do tornadoes generally last?",
+  answer1: "5 minutes",
+  answer2: "15 minutes",
+  answer3: "30 minutes",
+  correctAnswer: "answer2"
 },
 {
   id: "0500",
-  question:
+  question: ""
   answer1:
   answer2:
   answer3:
