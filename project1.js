@@ -171,10 +171,10 @@ qArray = [
   answer1: "4",
   answer2: "6",
   answer3: "8",
-  correctAnswer: "6"
+  correctAnswer: "answer2"
 },
 {
-  id: "4400",
+  id: "4300",
   question: "What is the lowest temp ever recorded?",
   answer1: "-89.2 degrees Celsius",
   answer2: "-20 degrees Farenheit",
