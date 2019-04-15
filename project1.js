@@ -175,28 +175,31 @@ qArray = [
 },
 {
   id: "4400",
-  question: ""
-  answer1:
-  answer2:
-  answer3:
+  question: "What is the lowest temp ever recorded?",
+  answer1: "-89.2 degrees Celsius",
+  answer2: "-20 degrees Farenheit",
+  answer3: "-50 degrees Farenheit",
+  correctAnswer: "answer1"
 },
 {
   id: "0400",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "Earth's oceans have an average depth of ____.",
+  answer1: "20,982 ft",
+  answer2: "10,240 ft",
+  answer3: "12,400 ft",
+  correctAnswer: "answer3"
 },
 {
   id: "1400",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "What is the original name of Windows?",
+  answer1: "Windows",
+  answer2: "Microsoft",
+  answer3: "Interface Manager",
+  correctAnswer: "answer3"
 },
 {
   id: "2400",
-  question:
+  question: 
   answer1:
   answer2:
   answer3:
