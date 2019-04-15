@@ -143,35 +143,38 @@ qArray = [
 },
 {
   id: "0300",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "How much percent of the planet's water is drinkable?",
+  answer1: "97%",
+  answer2: "80%",
+  answer3: "3%",
+  correctAnswer: "answer3"
 },
 {
   id: "1300",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "What day in November is Computer Security Day?",
+  answer1: "1st",
+  answer2: "17th",
+  answer3: "30th",
+  correctAnswer: "answer3"
 },
 {
   id: "2300",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "Which bunch of fruit is called a hand?",
+  answer1: "grapes",
+  answer2: "bananas",
+  answer3: "elder berries",
+  correctAnswer: "answer2"
 },
 {
   id: "3300",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "All insects have __ legs.",
+  answer1: "4",
+  answer2: "6",
+  answer3: "8"
 },
 {
   id: "4400",
-  question:
+  question: ""
   answer1:
   answer2:
   answer3:
