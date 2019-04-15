@@ -239,14 +239,15 @@ qArray = [
 },
 {
   id: "2500",
-  question:
-  answer1:
-  answer2:
-  answer3:
+  question: "What was the original color of carrots?",
+  answer1: "orange",
+  answer2: "green",
+  answer3: "purple",
+  correctAnswer: "answer3"
 },
 {
   id: "3500",
-  question:
+  question: 
   answer1:
   answer2:
   answer3:
